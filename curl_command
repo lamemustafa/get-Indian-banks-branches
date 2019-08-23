@@ -1,0 +1,10 @@
+Data I used in Postgres is for banks with bank_id 6 & 7 i.e. BANK OF INDIA & CENTRAL BANK OF INDIA
+
+sample curl requests - 
+1 . curl -H 'Accept: application/json' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY2OTkxMTQzLCJqdGkiOiIyNzBmNzFkNGVkYjQ0MDdhYjA2MzRiZjBkNTVkZTFhYyIsInVzZXJfaWQiOjF9.MYFZAqXYVCODbtUZHjgwy6nV-xxEiVDD3GPHarlXr7s" https://getindianbankbranches.herokuapp.com/?ifsc=BKID0006533
+
+2. curl -H 'Accept: application/json' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY2OTkxMTQzLCJqdGkiOiIyNzBmNzFkNGVkYjQ0MDdhYjA2MzRiZjBkNTVkZTFhYyIsInVzZXJfaWQiOjF9.MYFZAqXYVCODbtUZHjgwy6nV-xxEiVDD3GPHarlXr7s" 'https://getindianbankbranches.herokuapp.com/?city=roorkee&bank_name=CENTRAL%20BANK%20OF%20INDIA'
+
+3. curl -H 'Accept: application/json' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY2OTkxMTQzLCJqdGkiOiIyNzBmNzFkNGVkYjQ0MDdhYjA2MzRiZjBkNTVkZTFhYyIsInVzZXJfaWQiOjF9.MYFZAqXYVCODbtUZHjgwy6nV-xxEiVDD3GPHarlXr7s" 'https://getindianbankbranches.herokuapp.com/?offset=2&bank_name=bank%20of%20india&city=mumbai&limit=5'
+
+4. curl -H 'Accept: application/json' -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTY2OTkxMTQzLCJqdGkiOiIyNzBmNzFkNGVkYjQ0MDdhYjA2MzRiZjBkNTVkZTFhYyIsInVzZXJfaWQiOjF9.MYFZAqXYVCODbtUZHjgwy6nV-xxEiVDD3GPHarlXr7s" 'https://getindianbankbranches.herokuapp.com/?ifsc=BKID0006650&limit=1&offset=0'
