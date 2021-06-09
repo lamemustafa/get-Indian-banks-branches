@@ -1,5 +1,5 @@
 djangorestframework_simplejwt==4.3.0
-Django==2.2.4
+Django==2.2.22
 python-dotenv==0.10.3
 djangorestframework==3.10.2
 gunicorn==19.9.0
